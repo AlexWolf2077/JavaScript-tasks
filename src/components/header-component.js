@@ -1,4 +1,5 @@
-import {createElement} from './render';
+import {createElement} from './render.js';
+
 function createHeaderComponentTemplate() {
     return (
         `<header class="main-header">

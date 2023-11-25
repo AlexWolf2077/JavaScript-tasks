@@ -39,9 +39,10 @@ body {
         display: flex;
         justify-content: space-between;    
     }
+    /* Бэклог */
     .backlog-block{
         margin: 0px;
-        width: 270px;
+        width: 250px;
         padding-left: 0px;
         list-style: none;
     }
@@ -53,15 +54,17 @@ body {
         text-align: center;
         width: max-content;
         height: 30px;
-        background-color: #e3e3e3;
+        background-color: #d3d3d3;
         border-radius: 7px;
         border-style: solid;
         border-width: 1px;
         border-color:#e3e3e3;
     }
+    .backlog-li { box-shadow: 10px 0px 0px 0px #d3d3d3 inset;}
+    /* В процессе */
     .in-processing-block{
         margin: 0px;
-        width: 270px;
+        width: 250px;
         padding-left: 0px;
         list-style: none;
     }
@@ -73,35 +76,39 @@ body {
         text-align: center;
         width: max-content;
         height: 30px;
-        background-color: #d4e1ff;
+        background-color: #becdf2;
         border-radius: 7px;
         border-style: solid;
         border-width: 1px;
         border-color: #dbe5fd;
     }
+    .processing-li { box-shadow: 10px 0px 0px 0px #becdf2 inset;}
+    /* Готово */
     .done-block{
         margin: 0px;
-        width: 270px;
+        width: 250px;
         padding-left: 0px;
         list-style: none;
     }
     .name-of-done-block{
         font-family: Arial, Helvetica, sans-serif;
-        color: #8eb884;
+        color: #71bd5e;
         padding-inline: 15px;
         padding-top: 8px;
         text-align: center;
         width: max-content;
         height: 30px;
-        background-color: #ccf6cc;
+        background-color: #b5f3b5;
         border-radius: 7px;
         border-style: solid;
         border-width: 1px;
         border-color: #ccf6cc;
     }
+    .done-li {box-shadow: 10px 0px 0px 0px #b5f3b5 inset;}
+    /* Корзина */
     .basket-block{
         margin: 0px;
-        width: 270px;
+        width: 250px;
         padding-left: 0px;
         list-style: none;
     }
@@ -119,10 +126,11 @@ body {
         border-width: 1px;
         border-color: #f4d9d9;
     }
+    .basket-li { box-shadow: 10px 0px 0px 0px #f4d9d9 inset;}
     .type-of-content-block li{
         height: 55px;
-        margin-top: 8px;
-        padding-left: 15px;
+        margin-top: 10px;
+        padding-left: 25px;
         background-color: #ffffff;
         display: block;
         font-family: Arial, Helvetica, sans-serif;
@@ -133,8 +141,7 @@ body {
         align-items: center;
         border-radius: 10px;
         border-style: solid;
-        border-width: 1px;
-        border-color:#ffffff;
+        border-width: 0px;
     }
     .main-header{
         display: block;
@@ -186,7 +193,7 @@ body {
         transform: scale(110%)
     }
     .button-delete:active {
-        background-color:#740006;
+        background-color:#a40d14;
         transition: 0.1s;
     }
     .button-enter{
