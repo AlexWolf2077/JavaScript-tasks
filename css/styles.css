@@ -17,8 +17,6 @@ body {
     .task-container{
         width: max-content;
         height: max-content;
-    }
-    .create-task-container{
         background-color: #ffffff;
         margin-top: 40px;
         margin-bottom: 15px;

@@ -6,10 +6,10 @@ import {render, RenderPosition} from './render.js';
 
 const bodyContainer= document.querySelector('.board-app');
 const formContainer = document.querySelector('.content-block');
-const formTaskList = document.querySelector('.type-of-content-block');
+const formTaskList = document.querySelector(`.content-block`);
 console.log(formContainer);
 
 render(new HeaderComponent(), bodyContainer, RenderPosition.BEFOREBEGIN);
 render(new FormAddTaskComponent(), formContainer);
-render(FormTaskList)
-render(new FormTaskListComponent(), formTaskList.getElement())
+
+render(new FormTaskList(), formTaskList)
