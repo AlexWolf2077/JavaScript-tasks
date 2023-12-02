@@ -12,7 +12,6 @@ body {
     }
     .content-block{
         width: 1200px;
-        height: 500px;
     }
     .task-container{
         width: max-content;
@@ -35,11 +34,11 @@ body {
     }
     .type-of-content-block{
         display: flex;
-        justify-content: space-between;    
+        justify-content: center;    
     }
     /* Бэклог */
     .backlog-block{
-        margin: 0px;
+        margin: 30px;
         width: 250px;
         padding-left: 0px;
         list-style: none;
@@ -58,7 +57,23 @@ body {
         border-width: 1px;
         border-color:#e3e3e3;
     }
-    .backlog-li { box-shadow: 10px 0px 0px 0px #d3d3d3 inset;}
+    .backlog-li { 
+        box-shadow: 10px 0px 0px 0px #d3d3d3 inset;
+        height: 55px;
+        margin-top: 10px;
+        padding-left: 25px;
+        background-color: #ffffff;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: #626262;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 0px;
+    }
     /* В процессе */
     .in-processing-block{
         margin: 0px;
@@ -80,7 +95,23 @@ body {
         border-width: 1px;
         border-color: #dbe5fd;
     }
-    .processing-li { box-shadow: 10px 0px 0px 0px #becdf2 inset;}
+    .processing-li { 
+        box-shadow: 10px 0px 0px 0px #becdf2 inset;
+        height: 55px;
+        margin-top: 10px;
+        padding-left: 25px;
+        background-color: #ffffff;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: #626262;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 0px;
+    }
     /* Готово */
     .done-block{
         margin: 0px;
@@ -102,7 +133,23 @@ body {
         border-width: 1px;
         border-color: #ccf6cc;
     }
-    .done-li {box-shadow: 10px 0px 0px 0px #b5f3b5 inset;}
+    .done-li {
+        box-shadow: 10px 0px 0px 0px #b5f3b5 inset;
+        height: 55px;
+        margin-top: 10px;
+        padding-left: 25px;
+        background-color: #ffffff;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: #626262;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 0px;
+    }
     /* Корзина */
     .basket-block{
         margin: 0px;
@@ -124,8 +171,8 @@ body {
         border-width: 1px;
         border-color: #f4d9d9;
     }
-    .basket-li { box-shadow: 10px 0px 0px 0px #f4d9d9 inset;}
-    .type-of-content-block li{
+    .basket-li { 
+        box-shadow: 10px 0px 0px 0px #f4d9d9 inset;
         height: 55px;
         margin-top: 10px;
         padding-left: 25px;

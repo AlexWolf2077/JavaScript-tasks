@@ -1,16 +1,12 @@
 import { createElement } from '../render.js';
-import { TaskItem } from './TaskItem.js';
 
-export class FormTaskList {
-  
+export class TaskItem {
+  constructor(text) {
+    this.text = text;
+  }
 
   getTemplate() {
-    return (
-      `<ul class="backlog-block">
-        <h3 class="name-of-backlog-block">Бэклог</h3>
-        
-      </ul>`
-    );
+    return `<li class="backlog-li">${this.text}</li>`;
   }
 
   getElement() {
@@ -24,5 +20,4 @@ export class FormTaskList {
     this.element = null;
   }
 }
-
 
