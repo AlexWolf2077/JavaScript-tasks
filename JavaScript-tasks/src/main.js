@@ -1,7 +1,6 @@
 import {HeaderComponent} from './components/header-component.js';
 import {FormAddTaskComponent} from './components/form-add-task-component.js';
 import {FormTaskList} from './components/Form-tasks-list.js';
-import { TaskItem } from './components/TaskItem.js';
 import {render, RenderPosition} from './render.js';
 
 
